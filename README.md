@@ -7,7 +7,10 @@ Research and Reflection Journal for DGL 104 course
 # **Research & Reflection Journal**
  (Note: I will need to re-make this as I cannot find my file, I did do a clean up of my desktop due tyo Android studio and some files were deleted a week or 2 ago.. But I do remember having a living document I had been adding to. In order to complete this I will base it on my weekly hand written notes as I did take many notes in class and out of class.)
 
- ## Week 8 (hours spent 6)
+---
+
+
+ ## **Week 8 (hours spent 6)**
 
  ## What I Learned in class:
  - The second half of this course will be more difficult, the intensity will be picking up.
@@ -28,7 +31,7 @@ Research and Reflection Journal for DGL 104 course
        - Not implementation info 
        - holds high level concepts, clear do developer teams can understand and implement.
 
-- 
+
 ## What has been done:
 
 1. **Research and reflection:**
@@ -96,19 +99,9 @@ This week's learnings made me realize that there is a wide variety of programmin
 
 Additionally, I gained valuable insight into how **user stories** help developers focus on the real needs of users. By framing features and functionalities around what users truly require, user stories ensure that development stays aligned with practical use cases, making us better developers. Understanding and creating user stories enables us to better empathize with users and build applications that solve their problems in multiple ways. 
 
+---
 
-__________________________________________________________________________________________
-# Week 9 (hours spent 8-10)
- ## What I Learned in class:
- ##  Struggle points:
- ## What I learned: 
- ## What has been done:
- ## How I Spent My Time:
- - [Write](#)
-- [Write](#)  
- _________________________________________________________________________________________
-
-# Week 9 (hours spent 8-10)
+# **Week 9 (hours spent 8-10)**
 
  ## What I Learned :
  - With Java if something is static  we will call the class name to access the instance.
@@ -229,9 +222,122 @@ This week, I spent about 8 hours researching and completing assignments related 
 
 - BrightSpace Videos were watched multiple times.
 
-___________________________________________________________________________________________
+---
 
 
+## **Week 10 (hours spent 6-10)**
 
 
+## What I Learned in Class
+
+This week in class, I gained more knowledge into the **Model-View** architectural patterns (MV*), with a focus on **MVVM** and **MVC**. I learned that **MVVM** (Model-View-ViewModel) is the most commonly used pattern in mobile development for iOS and Android apps. MVVM provides a cleaner separation of concerns compared to **MVC** (Model-View-Controller), which was traditionally used in iOS development before the advent of SwiftUI. I now understand that MVC works by separating the data model, user interface, and user input, but MVVM takes it a step further, allowing for easier management of the view state, which is ideal for mobile apps.
+
+## Struggle Points
+
+- **Identifying an issue to contribute to**: One of the biggest struggles this week was finding an appropriate issue to fix. The repository I decided to contribute to had many reported problems, but the issues were often hard to reproduce due to differing execution environments. This made it difficult to find a clear, straightforward problem to solve.
+- **Contributing with limited programming experience**: Given my limited programming background, I found it challenging to figure out how to make a meaningful contribution to the codebase. The lack of detailed contribution guidelines in the repository made it harder for me to understand how to begin contributing.
+
+## What I Learned
+
+I learned that **open source contributions** are not always about writing code. For example, in the project I chose, I contributed by documenting different error cases and helping to locate inconsistencies within the codebase. This kind of **research-based contribution** can be valuable to a project, especially when the maintainers are dealing with environmental inconsistencies that are difficult to reproduce. 
+Additionally, I realized the importance of **clear contribution guidelines**. The repository I chose did not have a CONTRIBUTING.md file, making it unclear how new contributors should proceed. This is something I will keep in mind when working on open-source projects in the future.
+
+## What Has Been Done
+
+- I identified a relevant issue to work on: **"Looking for maintainers" (#184)** in the **tcconfig** GitHub repository.
+- I tried contributed by researching the environment-related issues and documenting the errors to help the maintainers understand the problem better.
+- I provided insights into the **lack of clear guidelines** in the repository, which could discourage potential contributors.
+- I participated in Slack discussions and summarized my findings on how to contribute to open-source projects based on my experiences this week.
+
+## How I Spent My Time
+
+- **Researching the repository**: I spent a significant amount of time going through the tcconfig repository and identifying issues. I explored the error logs and tried to understand the inconsistencies across different environments.
+- **Documenting errors and providing insights**: I helped document specific errors, noting down the systems where issues were occurring.
+- **Reviewing GitHub Issues and Discussions**: I followed ongoing discussion in the GitHub issues to understand the challenges the maintainers faced. I then shared my findings in the Slack channel, explaining how I could help with documentation and research-based contributions.
+
+## Follow-Up Questions and Reflections
+
+- **What is the hardest/most challenging thing you had to do this week for DGL 104? How did you overcome this challenge?**
+
+   The hardest thing I had to do was figure out how to contribute with my limited programming skills. Initially, I felt overwhelmed because many of the issues were beyond my coding capabilities. However, I overcame this by focusing on **documentation-based contributions** instead of directly diving into coding. This allowed me to still make an impact on the project while learning more about the contribution process.
+
+---
+
+
+# Week 11 (Hours spent: 6)
+
+## What I Learned in Class & at home:
+
+This week, we focused on **Object-Oriented Programming (OOP)**, which was particularly relevant to the ongoing development of our group project. Key OOP principles were:
+
+- **Inheritance**: Helps in creating base classes **AllUser** and allows other classes  **ManagerUser**, **CustomerUser** to inherit and extend functionality, making the codebase more modular and reducing redundancy.
+- **Encapsulation**: Grouping related data and functions together in a class, like encapsulating workout details within a **WorkOut** class. This promotes data integrity and allows for controlled access to data.
+- **Polymorphism**: Allows methods to be implemented in different forms depending on the object (e.g., defining one **addWorkout()** method that behaves differently for different user roles).
+
+I also learned that **Python**, the language we’re using in our gym app project, is fully capable of OOP and supports multiple paradigms like **Imperative**, **Functional**, and **Procedural** programming, making it a versatile choice for our app development.
+
+## Struggle Points:
+
+1. **Applying Polymorphism in a Large Codebase**:I understand the concept of polymorphism, I am struggling with how to apply it seamlessly in a large, dynamic project like the gym app. Deciding how much differentiation should exist between methods for different user types can be tricky, especially in complex systems.
+   
+2. **Understanding Encapsulation in Django Models**:I can see how encapsulation works in general OOP terms, implementing it with Django's ORM **Object-Relational Mapping** will require more research for me to get a better understanding.
+
+## What I Learned:
+
+- **OOP in Practice**: By applying OOP principles to the gym app project, I learned how these concepts can make a project more scalable and easier to manage. **Inheritance** helps reduce redundancy by enabling us to create parent classes like AllUser and derive specific user types from them. **Encapsulation** helps manage complex data, such as workouts, by keeping related functions and attributes together in one class. **Polymorphism** allows us to define generic methods like addWorkout() that can behave differently for each user type, which reduces code duplication and increases maintainability.
+
+- **Python as a Multi-Paradigm Language**: Python’s support for OOP, along with other paradigms like **functional** and **procedural programming**, gives us a lot of flexibility when building applications. I did struggle with this though in a sense that I had difficulty to figure out how to actually connect the codes to python, and how the database is hooked to it, I felt like it was too much for me to take on learning as I am very new to coding. 
+
+## What Has Been Done:
+
+- **OOP Concepts Applied to the Gym App**: We discussed and planned how OOP principles such as inheritance, encapsulation, and polymorphism could be applied to the backend of our gym app when in class. These principles will help structure the user roles, workouts, and gym services more efficiently.
+- **Python OOP Research**: I researched how Python handles OOP and its multi-paradigm nature. I found that Python is well-suited for the job, as it offers clear, readable syntax while supporting OOP and other programming styles.
+
+## How I Spent My Time:
+
+- [Research about OOP in Python](https://realpython.com/python3-object-oriented-programming/): Spent time learning more about how Python implements OOP concepts and its multi-paradigm capabilities.
+
+- [Planning OOP Structure](https://www.geeksforgeeks.org/python-oops-concepts/): Discussed with the team how to apply inheritance, encapsulation, and polymorphism to our app, particularly focusing on user roles and workout data.
+
+- [Encapsulation in Django](https://realpython.com/python3-object-oriented-programming/): Tried implementing encapsulation within Django models to manage workout data and user details effectively.
+
+- [Collaborating with Team](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests): Worked with my team to break down the backend requirements and how best to organize the code using OOP principles for scalability and efficiency.
+
+---
+
+# Week 12 (hours spent 8-10)
+
+## What I Learned in class:
+This week we focused on functional programming tools like **map**, **filter**, and **reduce**. These tools help make code more efficient by transforming collections in a concise way. I also learned how these tools can improve readability and simplify code, especially in handling data collections.
+
+## Struggle points:
+The biggest challenge was getting used to functional programming tools since I’m more familiar with traditional loops and imperative programming. It took a bit to adjust, but I’m getting the hang of it. I have only been in learning about programming since september 8 months ago, and knew nothing before then.
+
+## What I learned:
+- A bit about **Functional tools** like **map** and **filter**. 
+- Team collaboration and communication is key to being successful.
+- That I want to know our code inside and out for the final presentation.
+
+## What has been done:
+- Contributed to front-end features like login, team management, routine views, routines, and Mockups and other.  
+- Participated in team discussions and reviewed code on GitHub.
+- Did research to ensure I'm prepared for the final presentation.
+
+## How I Spent My Time:
+Basically, I have such a massive amount of homework, I have spent my time doing almost nothing at all but homework.. so I am doing what I can. All my time was homework. 
+
+---
+# Week 13 (hours spent = lots)
+
+- Honestly, this week has just been a grind and I have not taken many notes. I can say that I have learned how to start and host a teams meeting myself this week.
+-  I learned that I lost my entire Research and reflection journal.. 
+- I plan to still do more studying, before the presentation, and one last final test, and final check on the project, 
+
+**Testing** - I did not mention much about the debugging and testing, but one way I contribute to the testing is I try out the websites links and buttons, features, and run through the entire thing a bunch of times while documenting any inconsistencies, as well as looking over it with a magnify glass for any issues. Then I report back to my group. 
+
+--- 
+
+## **Conclusion:**
+
+Over the past weeks, I’ve gained valuable knowledge into architectural patterns, OOP principles, and Python, applying them to our gym app project. I’ve faced challenges in contributing to open-source projects and adapting to new programming paradigms, but I’ve focused on research-based contributions and collaborating effectively, and with my team I have became an important piece of pulling the group together, increasing communication, and productivity. As we approach the final stages, I feel more confident in applying these concepts and preparing for our final presentation.
 
